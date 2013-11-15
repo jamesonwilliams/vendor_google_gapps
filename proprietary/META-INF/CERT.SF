@@ -1,0 +1,512 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: xIrhYEHByUtLbwUXtl/valltj40=
+
+Name: system/priv-app/talkback.apk
+SHA1-Digest: 1ayDlVxmtBHdUFu1JAEMwQqdh+0=
+
+Name: system/lib/libvorbisencoder.so
+SHA1-Digest: iSVFqNZ0NIIrhwteX84/3Q8gJP4=
+
+Name: system/app/ChromeBookmarksSyncAdapter.apk
+SHA1-Digest: EnsULWRS6uOt97aG69c+AljXKZ8=
+
+Name: system/etc/preferred-apps/google.xml
+SHA1-Digest: RBl7CHmTT6q5LYRv8uAKLukGfKY=
+
+Name: system/app/Music2.apk
+SHA1-Digest: xsd6gs0jI6l5cUzv8DrRKVU45fc=
+
+Name: optional/face/vendor/pittpatt/models/detection/yaw_roll_face_det
+ ectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24.bin
+SHA1-Digest: fiq3ujQvqN2QDZkJTnFSZZmg+Cw=
+
+Name: system/app/GoogleEars.odex
+SHA1-Digest: D/hvbai+C3MXTAfgyAsAoOZHdk4=
+
+Name: system/priv-app/GoogleBackupTransport.apk
+SHA1-Digest: 4RqQNqRvbZ0fEZrfdJ6eoPBdHY0=
+
+Name: system/lib/libwebrtc_audio_preprocessing.so
+SHA1-Digest: P+gNMFPsIo8su7nnvznS4cT5pnE=
+
+Name: system/usr/srec/en-US/hmm_symbols
+SHA1-Digest: Lujjxwdd84JTS3CUlriUICNQUZw=
+
+Name: system/app/GoogleTTS.odex
+SHA1-Digest: 9NWXs7I5J91QrorHSS44KHK69xI=
+
+Name: system/app/GoogleContactsSyncAdapter.apk
+SHA1-Digest: JInGR25YIMrQClBXzpd0HOwkTU8=
+
+Name: system/usr/srec/en-US/norm_fst
+SHA1-Digest: yPCdX0EcppUA9o9xNvA5KBY7mUo=
+
+Name: system/priv-app/SetupWizard.odex
+SHA1-Digest: kSnTg40QpU7Xp6+qFP/NipKS65g=
+
+Name: system/priv-app/GoogleFeedback.apk
+SHA1-Digest: lLqGGTjLuL//XxyO1lVR40JE+/8=
+
+Name: optional/face/app/FaceLock.odex
+SHA1-Digest: 4AJMyDhK7Raq93qR+SRIR1pXVVc=
+
+Name: optional/face/lib/libfacelock_jni.so
+SHA1-Digest: 6USSHWZ+tLuyiutdKlWlhKWfem0=
+
+Name: system/app/QuickOffice.apk
+SHA1-Digest: Ew++NFVqU1kp2hpmO62qd2h/6i4=
+
+Name: system/lib/librsjni.so
+SHA1-Digest: mb5pjFZTYdgNP3MbnbvlgSnlFI8=
+
+Name: optional/face/vendor/pittpatt/models/detection/multi_pose_face_l
+ andmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32.bin
+SHA1-Digest: 0epnfuEgDbsv/3Sb/VYLbtmu5yw=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: GmyTIBIU0lpbJcMe2DKLL0I3wYg=
+
+Name: system/priv-app/GoogleLoginService.odex
+SHA1-Digest: NN+j08tkpRILn+c/020HwB3j6J4=
+
+Name: optional/camera/hammerhead/lib/libgcam.so
+SHA1-Digest: S/FvPCVePtuabKHaSKeCPbrgVnc=
+
+Name: system/lib/libocrclient.so
+SHA1-Digest: H0arLH0edGNBdACMl2QUlNFlW0A=
+
+Name: system/usr/srec/en-US/wordlist
+SHA1-Digest: zHaH5pmSyNoXNV3hzErhU+HgqOc=
+
+Name: system/priv-app/GooglePartnerSetup.apk
+SHA1-Digest: aRjca0S0QeuTf3KSayzOa4YE9k8=
+
+Name: system/priv-app/GoogleLoginService.apk
+SHA1-Digest: Ph4Mfrpo8x/jdxMv0I1KoabJNwo=
+
+Name: system/lib/librs.antblur.so
+SHA1-Digest: 7jvhMuGsPNRbOegoQvBcWJxYKs0=
+
+Name: system/usr/srec/en-US/grammar.config
+SHA1-Digest: 2nOyNWzDEeAi2wLNMltpgVUfsS8=
+
+Name: system/usr/srec/en-US/hmmlist
+SHA1-Digest: F+sXpQbkS7YMHsQMVAcihNz8KzY=
+
+Name: system/usr/srec/en-US/hotword_prompt.txt
+SHA1-Digest: ZuJVy8gIieraPoMqynOMNDkWZP4=
+
+Name: system/lib/libndk1.so
+SHA1-Digest: S++uCaFx/yUg2h9xgMdKsNIrR8s=
+
+Name: system/framework/com.google.android.maps.odex
+SHA1-Digest: DVwvxzVDLNgBE9CGi9dioYWpcg8=
+
+Name: system/lib/librs.fixedframe.so
+SHA1-Digest: FC/w5m1kco4agG53xeDETZHYboY=
+
+Name: system/usr/srec/en-US/endpointer_voicesearch.config
+SHA1-Digest: MgyAh0x/DUBKQE/gm2rmLwyDODg=
+
+Name: system/lib/libfilterpack_facedetect.so
+SHA1-Digest: TpyzuqKADHCRbob1uZv49yj9R8Q=
+
+Name: system/framework/com.google.widevine.software.drm.odex
+SHA1-Digest: bRAru7STBhjHlRxSp+pzRZNPjcU=
+
+Name: system/usr/srec/en-US/hotword_word_symbols
+SHA1-Digest: grDU39OvLW4wp5AffswVxrL7URU=
+
+Name: system/lib/librs.antblur_drama.so
+SHA1-Digest: BEB97xAwVM/KKM6gc/1LYFP2BkM=
+
+Name: system/etc/g.prop
+SHA1-Digest: qXIA6sjh70np5Os1WG5G467A0MI=
+
+Name: optional/face/addon.d/71-faceunlock.sh
+SHA1-Digest: X8obTFHqXMZ6V3wIIn/iuewWu/o=
+
+Name: optional/camera/hammerhead/lib/libjni_mosaic.so
+SHA1-Digest: zqqnW/zg2p8Qro333n3EZRiNcG0=
+
+Name: system/lib/libwebp_android.so
+SHA1-Digest: JYbLqS2MV4hvkO8c02cIyTljSPo=
+
+Name: system/priv-app/GoogleServicesFramework.apk
+SHA1-Digest: xdybriIrq/x55zXU719j4j1KhYg=
+
+Name: optional/face/app/FaceLock.apk
+SHA1-Digest: f54M3Q9WR0Y0pSlaAMLjSS1Dl4A=
+
+Name: system/lib/librectifier-v7a.so
+SHA1-Digest: nAU6TQim+quIKxNPsEB6vVX5NcU=
+
+Name: system/lib/librs.antblur_constant.so
+SHA1-Digest: RqVAaUFEux1/sZap18aaOJF3UGk=
+
+Name: system/usr/srec/en-US/commands.abnf
+SHA1-Digest: 6YxMrOw8ArmDKV3SnSVa0jdvdLs=
+
+Name: system/priv-app/CalendarProvider.apk
+SHA1-Digest: CAFZGNdU72N02xPCQPEkY0jKxw0=
+
+Name: system/lib/libwebrtc_audio_coding.so
+SHA1-Digest: cQ+C4mqHi8gDhNsfXL9KLDWK6bs=
+
+Name: system/usr/srec/en-US/g2p_fst
+SHA1-Digest: l8/XYD+Shc9RuLVFVZjR/GYc/Us=
+
+Name: system/app/Gmail2.odex
+SHA1-Digest: X1V2rQ9N4/f2c7U5RsP1g+RtMe8=
+
+Name: system/priv-app/Phonesky.apk
+SHA1-Digest: cdOXZAALXNs3eVUeLNG4gLxr2xY=
+
+Name: system/app/Drive.apk
+SHA1-Digest: 5cY0oMAQ5ffA3WVyoACgROhUKx0=
+
+Name: system/app/PlusOne.apk
+SHA1-Digest: YO9UqjnunjIXmbBFq2+priwtZKI=
+
+Name: system/app/CalendarGoogle.odex
+SHA1-Digest: BZucnA2wT5uC0bUwVbWqNHD+7vE=
+
+Name: system/framework/com.google.android.media.effects.odex
+SHA1-Digest: hDGrxjnxFEksc/Q22W6E+1L0kbY=
+
+Name: system/lib/libjni_eglfence.so
+SHA1-Digest: psLA5cggmzDi74Xp1tkka/Kw3GU=
+
+Name: system/lib/libvideochat_jni.so
+SHA1-Digest: sX9oqejR7gcBAQsjfdN+SJ6c0qs=
+
+Name: system/lib/libgames_rtmp_jni.so
+SHA1-Digest: mRzCpmEAwTN69ROu+N6uQslpjIA=
+
+Name: optional/camera/hammerhead/app/GoogleCamera.apk
+SHA1-Digest: ZEyfZpE/zTW80deTLhMdaztJThw=
+
+Name: system/app/GenieWidget.odex
+SHA1-Digest: OgH4vSMhlxFukobffrJfCLpPHR0=
+
+Name: optional/camera/hammerhead/framework/com.google.android.camera2.
+ odex
+SHA1-Digest: IeHDz2J70iCwLqfG7ezG2VuUujA=
+
+Name: system/priv-app/OneTimeInitializer.apk
+SHA1-Digest: BldPOKXRm/W2ljnR3QI3GrHyujM=
+
+Name: system/app/CalendarGoogle.apk
+SHA1-Digest: RvKWgXcGgAmmG5BGu6OlisRCyWc=
+
+Name: system/lib/librs.image_wrapper.so
+SHA1-Digest: ggOzHXskL8UAYSr83C6Z4gCEzEg=
+
+Name: system/usr/srec/en-US/hotword_classifier
+SHA1-Digest: APB+50KnEWBUH3ybAIlCkQtnGtg=
+
+Name: system/usr/srec/en-US/dnn
+SHA1-Digest: GNujB1/IablzzlEf19fStSYRpd4=
+
+Name: system/priv-app/CalendarProvider.odex
+SHA1-Digest: CMR6qIxvw1TniqO7Qo1Um+z6/FA=
+
+Name: system/priv-app/PrebuiltGmsCore.apk
+SHA1-Digest: xx67vddMMZn8DxXYx6rdeWoR2IE=
+
+Name: system/lib/libjni_t13n_shared_engine.so
+SHA1-Digest: bwUDDeamRo3S4yzobLy4D0ODpds=
+
+Name: system/priv-app/GoogleBackupTransport.odex
+SHA1-Digest: 4sTJeVz1u57a6JOgDs2f+3syptA=
+
+Name: system/usr/srec/en-US/normalizer
+SHA1-Digest: 4iCTB9icELI1BJdqCXr2ZLXF120=
+
+Name: system/app/GalleryGoogle.apk
+SHA1-Digest: 0xcV0Yx7Pak5I500nIB8YzxG1v8=
+
+Name: system/usr/srec/en-US/rescoring_lm
+SHA1-Digest: cfXOJpI4HLGFAkIeC2L4gHfEFUc=
+
+Name: system/lib/libnetjni.so
+SHA1-Digest: CBm5nHLDA2CWjlG7lG9rwe2H3d8=
+
+Name: system/usr/srec/en-US/phonelist
+SHA1-Digest: S2L0nVL6UG1/1SM58nULzylbpFY=
+
+Name: system/usr/srec/en-US/clg
+SHA1-Digest: tZShQLaMekTpoGKP/7OqiMLoW0A=
+
+Name: optional/camera/hammerhead/addon.d/74-googlecamera.sh
+SHA1-Digest: dnH4rYnI2zf4HzBKqxS9O1yvfqE=
+
+Name: system/lib/libfilterframework_jni.so
+SHA1-Digest: 944qUotZcez6LLOh8pu+R4tyO8A=
+
+Name: system/lib/libdocscanner_image-v7a.so
+SHA1-Digest: GJencWsubJkXRILQojFVYLHIRYo=
+
+Name: system/usr/srec/en-US/ep_acoustic_model
+SHA1-Digest: TRJvr6ElzKlRSjdRODtxGDwejN4=
+
+Name: system/app/GoogleEarth.apk
+SHA1-Digest: jvLaTAHxFLSQrJcHEfL83WjbYm0=
+
+Name: system/priv-app/OneTimeInitializer.odex
+SHA1-Digest: iPhqBjzz00rMWI36PJxFA3bImJE=
+
+Name: system/lib/librs.grey.so
+SHA1-Digest: wjR9dZftSWlKVBSLtyWAP8UGv6I=
+
+Name: system/app/GoogleHome.apk
+SHA1-Digest: 69Yaho7Yo+caOZ0px+CEIDV8M48=
+
+Name: system/usr/srec/en-US/metadata
+SHA1-Digest: 33LIloWsGfU0wBo5iQyWapCDViY=
+
+Name: system/priv-app/Wallet.apk
+SHA1-Digest: YNhZXwqrj+Xs8/Jsd3PSUeEuPwE=
+
+Name: system/framework/com.google.android.media.effects.jar
+SHA1-Digest: j65wByYhqIRgqdTpRscbDexzF5Q=
+
+Name: system/usr/srec/en-US/offensive_word_normalizer
+SHA1-Digest: JlWzqRWPoWw50GU8zCZrADdDH+E=
+
+Name: system/usr/srec/en-US/contacts.abnf
+SHA1-Digest: Hi3CXkC6syyX5QYh/YuF+40jt4s=
+
+Name: system/lib/libfrsdk.so
+SHA1-Digest: 7pCEkV0Plnkz7hji6tkJ6QeXPdc=
+
+Name: optional/face/vendor/pittpatt/models/detection/yaw_roll_face_det
+ ectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin
+SHA1-Digest: s/NkcBPW6TuuJOjTT2pcSuykc2M=
+
+Name: system/app/Videos.apk
+SHA1-Digest: GewaVrc8ZiMFvjMHCv9FFeiDhAU=
+
+Name: system/lib/libjni_filtershow_filters.so
+SHA1-Digest: QGFE8PJ9LW0xyAOHOAJPQKrwVDM=
+
+Name: system/lib/libdocsimageutils.so
+SHA1-Digest: B3xaiRt9O6izsT5tKIjkx3tE0Bg=
+
+Name: system/etc/permissions/com.google.android.media.effects.xml
+SHA1-Digest: j/P++0UEThlMLHb5ewoUXe96pQ4=
+
+Name: system/app/Street.apk
+SHA1-Digest: IifJvCP45+/DFfv29fdR8/29l4U=
+
+Name: optional/camera/hammerhead/lib/libnativehelper_compat.so
+SHA1-Digest: X99WDpkRm+/Qp/xUU20v5bnAZAU=
+
+Name: optional/camera/hammerhead/lib/libgcam_swig_jni.so
+SHA1-Digest: 2pJKMostj7nPHo7X98RMIcRuRZY=
+
+Name: system/lib/libplus_jni_v8.so
+SHA1-Digest: JMBt7v/O9UMLr2f0C/zSiGxRps0=
+
+Name: system/usr/srec/en-US/compile_grammar.config
+SHA1-Digest: oC0Hh1Un8OqUdqsQCXzE5h4aqRg=
+
+Name: system/etc/permissions/com.google.widevine.software.drm.xml
+SHA1-Digest: MvejKuFQO4VpexrZo29KXJ+HiE0=
+
+Name: system/app/MediaUploader.apk
+SHA1-Digest: 9+6PwgC1icYvp50Bp8WgzXBq6PM=
+
+Name: system/lib/libfacetracker.so
+SHA1-Digest: robsWPk/XpZDELNlZ7B1psg6Uew=
+
+Name: system/app/GoogleContactsSyncAdapter.odex
+SHA1-Digest: plwO2s4tgtF7XKT2rYyCbWsacjM=
+
+Name: system/usr/srec/en-US/hotword_normalizer
+SHA1-Digest: U5cNx823+ngi1wLCXQ/4zkdkFR0=
+
+Name: optional/face/vendor/pittpatt/models/detection/multi_pose_face_l
+ andmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32.bin
+SHA1-Digest: u1R6Tk2fyCq+hK/ZJ49ez0HITAI=
+
+Name: optional/face/vendor/pittpatt/models/recognition/face.face.y0-y0
+ -22-b-N.bin
+SHA1-Digest: OkkgFkQeoW4GrJlkIMgtraB9LgE=
+
+Name: system/app/Keep.apk
+SHA1-Digest: XAKcdiVXlHqRg3gf9eKE2+V2bBY=
+
+Name: system/app/LatinImeGoogle.odex
+SHA1-Digest: 9VIxx8rM9BIKZTLmmSIe/RBK7Aw=
+
+Name: system/usr/srec/en-US/endpointer_dictation.config
+SHA1-Digest: j/ixWk0Vzc1Re76RugKSBPSkHbw=
+
+Name: system/lib/libearthandroid.so
+SHA1-Digest: 5w13KfcAsam6hwkFa6ULZ0uKn9M=
+
+Name: system/etc/permissions/com.google.android.maps.xml
+SHA1-Digest: QaPNB5FUfwkZ5T3fG1bXJpF8pNY=
+
+Name: system/addon.d/70-gapps.sh
+SHA1-Digest: V5yryuayO+kqRJvg1LaKU8JGJa0=
+
+Name: system/app/GenieWidget.apk
+SHA1-Digest: +nU5+bDJKtwadLuaZ8+K5pkbiDw=
+
+Name: system/usr/srec/en-US/hclg_shotword
+SHA1-Digest: 9FmiJXBzApZEHKbiaQMGRgma8D4=
+
+Name: optional/camera/hammerhead/etc/permissions/com.google.android.ca
+ mera2.xml
+SHA1-Digest: iu8FFRA/J7ynPJOqToovF4CysQQ=
+
+Name: system/app/MediaUploader.odex
+SHA1-Digest: PrBEuUrvz2nvSEUWbI8p8R27WGo=
+
+Name: system/app/Keep.odex
+SHA1-Digest: uDDhZe1B/sxyBbob6sLRv0LPHM8=
+
+Name: system/priv-app/GooglePartnerSetup.odex
+SHA1-Digest: uZ8Ibml9n9jDQ+VisSjs1D4OW7E=
+
+Name: system/usr/srec/en-US/dict
+SHA1-Digest: JFQY5FzKYD9KqQiGzEP2yhkU+Wc=
+
+Name: system/app/LatinImeGoogle.apk
+SHA1-Digest: p5QlxJ0F6JR2TgkdGOtgdHko2p0=
+
+Name: system/app/YouTube.apk
+SHA1-Digest: vz7h/lvK90wlSezrVNFzjBtDEG8=
+
+Name: system/app/Magazines.apk
+SHA1-Digest: BftsZAACkV+eIvecS7G7uamkYrc=
+
+Name: system/priv-app/GoogleFeedback.odex
+SHA1-Digest: LSQV/jGO+zPBhLr6l3YDmJtSZBY=
+
+Name: optional/camera/hammerhead/lib/liblightcycle.so
+SHA1-Digest: GqGfxODr/8WtobC/xDsTLCOiexU=
+
+Name: system/lib/libAppDataSearch.so
+SHA1-Digest: nem8YRRqLYXn2y5BocSfttdsmZg=
+
+Name: system/lib/libjni_latinime.so
+SHA1-Digest: /b2WoauBVRTDHGbfCvXR/pECw8w=
+
+Name: system/lib/libearthmobile.so
+SHA1-Digest: pKk5QLX0pfUl/wbeqlCuTCZ4ZE0=
+
+Name: system/lib/libmoviemaker-jni.so
+SHA1-Digest: 0XbM+wZCvlS5l4fDpCAhFfLHiyU=
+
+Name: system/lib/libWVphoneAPI.so
+SHA1-Digest: IJDSxP9ddKLYBSgbDBDrOPcoPjg=
+
+Name: system/app/GoogleEars.apk
+SHA1-Digest: tzJqmHtUBI27eXgLv0qt51CJMX0=
+
+Name: system/framework/com.google.android.maps.jar
+SHA1-Digest: 9IeGprAdQ4OO70nzrKOX3WEzEro=
+
+Name: system/etc/permissions/features.xml
+SHA1-Digest: DfInr4v3B2dCSSDL8XO3gd9lw1Y=
+
+Name: optional/face/vendor/pittpatt/models/detection/yaw_roll_face_det
+ ectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin
+SHA1-Digest: O8F5x2UAz8sUggoEkKHeGoYc5M8=
+
+Name: system/usr/srec/en-US/phone_state_map
+SHA1-Digest: JlRn2MCdA5qXE16m4q9LkrYuuyY=
+
+Name: system/lib/liblinearalloc.so
+SHA1-Digest: xZqp8VvkaRu25Xa37QATB2XsG/U=
+
+Name: system/usr/srec/en-US/hotword.config
+SHA1-Digest: vY9qv9v/FpuW5ZrRh2abWOPOLSM=
+
+Name: system/lib/libpatts_engine_jni_api.so
+SHA1-Digest: tg8k4wdBvm3zdcTZWZf5OBy0aG0=
+
+Name: system/lib/libRSSupport.so
+SHA1-Digest: fsSxV90E9tkcm/5Zfz0oGGPCjDU=
+
+Name: system/app/Gmail2.apk
+SHA1-Digest: uOB6Vs1zcncBMHa4yXHeiXVyDOk=
+
+Name: system/app/Maps.apk
+SHA1-Digest: 4f/XBtrWpqU5jpi6ajG92TR4EXc=
+
+Name: system/lib/librs.retrolux.so
+SHA1-Digest: sxAYpbEPV1fBZ2OL3yjO6pl/B6s=
+
+Name: optional/camera/hammerhead/framework/com.google.android.camera2.
+ jar
+SHA1-Digest: 8mE4+RUG2O80+OtwHacPQzGiJC8=
+
+Name: system/app/Books.apk
+SHA1-Digest: 0Do34g35t1ZGZGD5Rru49yyrX4I=
+
+Name: optional/camera/hammerhead/app/GoogleCamera.odex
+SHA1-Digest: P6HvMdzy3fPDPIsdm1o+YS5VOPI=
+
+Name: system/app/GoogleTTS.apk
+SHA1-Digest: iE2AwbWucw4vKF6NacS8McMOxw0=
+
+Name: system/priv-app/SetupWizard.apk
+SHA1-Digest: Vf4udU8IwlEfRJqd4HeGzjuplAc=
+
+Name: system/app/PlayGames.apk
+SHA1-Digest: 8vDSeYb7GZDywq34dG5czvrvBvQ=
+
+Name: system/priv-app/Velvet.apk
+SHA1-Digest: umMAbzkzVXnO4VF0AspkqnKkBxk=
+
+Name: install-optional.sh
+SHA1-Digest: ezpXyQS+3xE66gFIVHe2fVnJEgU=
+
+Name: system/lib/librs.drama.so
+SHA1-Digest: JDE19/c3ctM1lulIgrxvF/5WFtE=
+
+Name: system/usr/srec/en-US/c_fst
+SHA1-Digest: /2PvNC/f58LvddzoiN7zRnE5KMo=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: CSZ7Gyg6X76HeNNSMKPZaNDGFlI=
+
+Name: system/app/GalleryGoogle.odex
+SHA1-Digest: Z6kfdukG9aGzpbAnec32ekJeqYk=
+
+Name: system/framework/com.google.widevine.software.drm.jar
+SHA1-Digest: ueU83BEaXFAKM4FtvWYiqX6Ueiw=
+
+Name: system/app/Hangouts.apk
+SHA1-Digest: UjzSk9fRTP4ubXka1HdWm1qf+Z0=
+
+Name: system/lib/libjni_latinimegoogle.so
+SHA1-Digest: 1RxUHh9xVNZEGR4OqKQFxo+zS2U=
+
+Name: optional/face/vendor/pittpatt/models/detection/multi_pose_face_l
+ andmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2.bin
+SHA1-Digest: /+On1O/zbRA2mJdxQjFDVdxMPxc=
+
+Name: system/lib/libspeexwrapper.so
+SHA1-Digest: 5/HuCxJqMoxzmjqxjBjnzj8Rprg=
+
+Name: system/usr/srec/en-US/dictation.config
+SHA1-Digest: xvxb1kAEUtZGykV0QniIXtGG6Qs=
+
+Name: system/lib/libgoogle_recognizer_jni_l.so
+SHA1-Digest: ccIP+boOEQvmoUPt6LpA16Q1haU=
+
+Name: system/priv-app/GoogleServicesFramework.odex
+SHA1-Digest: c9JLJc8AOunZpclvAFhvZZl4b2E=
+
+Name: system/lib/libvcdecoder_jni.so
+SHA1-Digest: 2QqhalrcNJ1a2RLFJ4RUE1uhozc=
+
+Name: system/lib/librs.film_base.so
+SHA1-Digest: JqDNWr88obRUj8HILAN4A3KXIbA=
+
