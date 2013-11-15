@@ -1,41 +1,6 @@
 # GApps dependencies
 PRODUCT_COPY_FILES += \
     vendor/google/gapps/proprietary/system/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
-    vendor/google/gapps/proprietary/system/app/Books.apk:system/app/Books.apk \
-    vendor/google/gapps/proprietary/system/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
-    vendor/google/gapps/proprietary/system/app/CalendarGoogle.odex:system/app/CalendarGoogle.odex \
-    vendor/google/gapps/proprietary/system/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/google/gapps/proprietary/system/app/Drive.apk:system/app/Drive.apk \
-    vendor/google/gapps/proprietary/system/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
-    vendor/google/gapps/proprietary/system/app/GalleryGoogle.odex:system/app/GalleryGoogle.odex \
-    vendor/google/gapps/proprietary/system/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/google/gapps/proprietary/system/app/GenieWidget.odex:system/app/GenieWidget.odex \
-    vendor/google/gapps/proprietary/system/app/Gmail2.apk:system/app/Gmail2.apk \
-    vendor/google/gapps/proprietary/system/app/Gmail2.odex:system/app/Gmail2.odex \
-    vendor/google/gapps/proprietary/system/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-    vendor/google/gapps/proprietary/system/app/GoogleContactsSyncAdapter.odex:system/app/GoogleContactsSyncAdapter.odex \
-    vendor/google/gapps/proprietary/system/app/GoogleEars.apk:system/app/GoogleEars.apk \
-    vendor/google/gapps/proprietary/system/app/GoogleEars.odex:system/app/GoogleEars.odex \
-    vendor/google/gapps/proprietary/system/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
-    vendor/google/gapps/proprietary/system/app/GoogleHome.apk:system/app/GoogleHome.apk \
-    vendor/google/gapps/proprietary/system/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
-    vendor/google/gapps/proprietary/system/app/GoogleTTS.odex:system/app/GoogleTTS.odex \
-    vendor/google/gapps/proprietary/system/app/Hangouts.apk:system/app/Hangouts.apk \
-    vendor/google/gapps/proprietary/system/app/Keep.apk:system/app/Keep.apk \
-    vendor/google/gapps/proprietary/system/app/Keep.odex:system/app/Keep.odex \
-    vendor/google/gapps/proprietary/system/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-    vendor/google/gapps/proprietary/system/app/LatinImeGoogle.odex:system/app/LatinImeGoogle.odex \
-    vendor/google/gapps/proprietary/system/app/Magazines.apk:system/app/Magazines.apk \
-    vendor/google/gapps/proprietary/system/app/Maps.apk:system/app/Maps.apk \
-    vendor/google/gapps/proprietary/system/app/MediaUploader.apk:system/app/MediaUploader.apk \
-    vendor/google/gapps/proprietary/system/app/MediaUploader.odex:system/app/MediaUploader.odex \
-    vendor/google/gapps/proprietary/system/app/Music2.apk:system/app/Music2.apk \
-    vendor/google/gapps/proprietary/system/app/PlayGames.apk:system/app/PlayGames.apk \
-    vendor/google/gapps/proprietary/system/app/PlusOne.apk:system/app/PlusOne.apk \
-    vendor/google/gapps/proprietary/system/app/QuickOffice.apk:system/app/QuickOffice.apk \
-    vendor/google/gapps/proprietary/system/app/Street.apk:system/app/Street.apk \
-    vendor/google/gapps/proprietary/system/app/Videos.apk:system/app/Videos.apk \
-    vendor/google/gapps/proprietary/system/app/YouTube.apk:system/app/YouTube.apk \
     vendor/google/gapps/proprietary/system/etc/g.prop:system/etc/g.prop \
     vendor/google/gapps/proprietary/system/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/google/gapps/proprietary/system/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
@@ -43,11 +8,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/gapps/proprietary/system/etc/permissions/features.xml:system/etc/permissions/features.xml \
     vendor/google/gapps/proprietary/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
     vendor/google/gapps/proprietary/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
-    vendor/google/gapps/proprietary/system/framework/com.google.android.maps.odex:system/framework/com.google.android.maps.odex \
     vendor/google/gapps/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/google/gapps/proprietary/system/framework/com.google.android.media.effects.odex:system/framework/com.google.android.media.effects.odex \
     vendor/google/gapps/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/google/gapps/proprietary/system/framework/com.google.widevine.software.drm.odex:system/framework/com.google.widevine.software.drm.odex \
     vendor/google/gapps/proprietary/system/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
     vendor/google/gapps/proprietary/system/lib/libdocscanner_image-v7a.so:system/lib/libdocscanner_image-v7a.so \
     vendor/google/gapps/proprietary/system/lib/libdocsimageutils.so:system/lib/libdocsimageutils.so \
@@ -91,27 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/gapps/proprietary/system/lib/libwebrtc_audio_coding.so:system/lib/libwebrtc_audio_coding.so \
     vendor/google/gapps/proprietary/system/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
     vendor/google/gapps/proprietary/system/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/google/gapps/proprietary/system/priv-app/CalendarProvider.apk:system/priv-app/CalendarProvider.apk \
-    vendor/google/gapps/proprietary/system/priv-app/CalendarProvider.odex:system/priv-app/CalendarProvider.odex \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleBackupTransport.apk:system/priv-app/GoogleBackupTransport.apk \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleBackupTransport.odex:system/priv-app/GoogleBackupTransport.odex \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleFeedback.apk:system/priv-app/GoogleFeedback.apk \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleFeedback.odex:system/priv-app/GoogleFeedback.odex \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleLoginService.apk:system/priv-app/GoogleLoginService.apk \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleLoginService.odex:system/priv-app/GoogleLoginService.odex \
-    vendor/google/gapps/proprietary/system/priv-app/GooglePartnerSetup.apk:system/priv-app/GooglePartnerSetup.apk \
-    vendor/google/gapps/proprietary/system/priv-app/GooglePartnerSetup.odex:system/priv-app/GooglePartnerSetup.odex \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleServicesFramework.apk:system/priv-app/GoogleServicesFramework.apk \
-    vendor/google/gapps/proprietary/system/priv-app/GoogleServicesFramework.odex:system/priv-app/GoogleServicesFramework.odex \
-    vendor/google/gapps/proprietary/system/priv-app/OneTimeInitializer.apk:system/priv-app/OneTimeInitializer.apk \
-    vendor/google/gapps/proprietary/system/priv-app/OneTimeInitializer.odex:system/priv-app/OneTimeInitializer.odex \
-    vendor/google/gapps/proprietary/system/priv-app/Phonesky.apk:system/priv-app/Phonesky.apk \
-    vendor/google/gapps/proprietary/system/priv-app/PrebuiltGmsCore.apk:system/priv-app/PrebuiltGmsCore.apk \
-    vendor/google/gapps/proprietary/system/priv-app/SetupWizard.apk:system/priv-app/SetupWizard.apk \
-    vendor/google/gapps/proprietary/system/priv-app/SetupWizard.odex:system/priv-app/SetupWizard.odex \
-    vendor/google/gapps/proprietary/system/priv-app/talkback.apk:system/priv-app/talkback.apk \
-    vendor/google/gapps/proprietary/system/priv-app/Velvet.apk:system/priv-app/Velvet.apk \
-    vendor/google/gapps/proprietary/system/priv-app/Wallet.apk:system/priv-app/Wallet.apk \
     vendor/google/gapps/proprietary/system/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
     vendor/google/gapps/proprietary/system/usr/srec/en-US/clg:system/usr/srec/en-US/clg \
     vendor/google/gapps/proprietary/system/usr/srec/en-US/commands.abnf:system/usr/srec/en-US/commands.abnf \
