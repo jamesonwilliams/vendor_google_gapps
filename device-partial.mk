@@ -89,6 +89,7 @@ PRODUCT_PACKAGES += \
     Books \
     CalendarGoogle \
     CalendarProvider \
+	Chrome \
     ChromeBookmarksSyncAdapter \
     Drive \
     GalleryGoogle \
