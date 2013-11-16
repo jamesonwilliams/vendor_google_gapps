@@ -11,6 +11,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/gapps/proprietary/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/google/gapps/proprietary/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/google/gapps/proprietary/system/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
+    vendor/google/gapps/proprietary/system/lib/libchromeview.so:system/lib/libchromeview.so \
+    vendor/google/gapps/proprietary/system/lib/libchromium_net.so:system/lib/libchromium_net.so \
     vendor/google/gapps/proprietary/system/lib/libdocscanner_image-v7a.so:system/lib/libdocscanner_image-v7a.so \
     vendor/google/gapps/proprietary/system/lib/libdocsimageutils.so:system/lib/libdocsimageutils.so \
     vendor/google/gapps/proprietary/system/lib/libearthandroid.so:system/lib/libearthandroid.so \
