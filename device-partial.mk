@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
     CalendarProvider \
 	Chrome \
     ChromeBookmarksSyncAdapter \
+    ConfigUpdater \
     Drive \
     GalleryGoogle \
     GenieWidget \
@@ -121,6 +122,7 @@ PRODUCT_PACKAGES += \
     SetupWizard \
     Street \
     talkback \
+    TimeService \
     Velvet \
     Videos \
     Wallet \
