@@ -10,9 +10,8 @@ app/Books.apk
 app/CalendarGoogle.apk
 app/CalendarGoogle.odex
 app/ChromeBookmarksSyncAdapter.apk
+app/CloudPrint2.apk
 app/Drive.apk
-app/GalleryGoogle.apk
-app/GalleryGoogle.odex
 app/GenieWidget.apk
 app/GenieWidget.odex
 app/Gmail2.apk
@@ -64,8 +63,6 @@ lib/libfilterpack_facedetect.so
 lib/libfrsdk.so
 lib/libgames_rtmp_jni.so
 lib/libgoogle_recognizer_jni_l.so
-lib/libjni_eglfence.so
-lib/libjni_filtershow_filters.so
 lib/libjni_latinime.so
 lib/libjni_latinimegoogle.so
 lib/libjni_t13n_shared_engine.so
@@ -172,20 +169,54 @@ case "$1" in
     # Stub
   ;;
   post-restore)
-	# Remove AOSP Gallery after restore
-	rm -f /system/app/Gallery2.apk
+    # Remove the Pico TTS app
+    rm -f /system/app/PicoTts.apk
 
-	# Remove the Pico TTS app
-	rm -f /system/app/PicoTts.apk
-  
     # Remove the AOSP Stock Launcher after restore
     rm -f /system/priv-app/Launcher2.apk
-    rm -f /system/priv-app/Launcher3.apk   
+    rm -f /system/priv-app/Launcher3.apk
     rm -f /system/app/Launcher2.apk
-    rm -f /system/app/Launcher3.apk   
+    rm -f /system/app/Launcher3.apk
 
     # Remove the AOSP Keyboard after restore - NOT on Mini Builds
-	rm -f system/app/LatinIME.apk
-    rm -f /system/lib/libjni_latinime.so
+    rm -f /system/app/LatinIME.apk
+
+    # Remove pieces from other GApps or ROM's (from updater-script)
+    rm -f /system/app/BrowserProviderProxy.apk
+    rm -f /system/app/Calendar.apk
+    rm -f /system/app/Gmail.apk
+    rm -f /system/app/GmsCore.apk
+    rm -f /system/app/GoogleCalendar.apk
+    rm -f /system/app/GoogleCalendarSyncAdapter.apk
+    rm -f /system/app/GoogleCloudPrint.apk
+    rm -f /system/app/GoogleHangouts.apk
+    rm -f /system/app/GoogleKeep.apk
+    rm -f /system/app/GoogleOneTimeInitializer.apk
+    rm -f /system/app/GooglePlus.apk
+    rm -f /system/app/PartnerBookmarksProvider.apk
+    rm -f /system/app/QuickSearchBox.apk
+    rm -f /system/app/Talk.apk
+    rm -f /system/app/Vending.apk
+    rm -f /system/app/Youtube.apk
+    rm -f /system/priv-app/Calendar.apk
+    rm -f /system/priv-app/GmsCore.apk
+    rm -f /system/priv-app/GoogleNow.apk
+    rm -f /system/priv-app/QuickSearchBox.apk
+    rm -f /system/priv-app/Vending.apk
+
+    # Remove apps from 'app' that need to be installed in 'priv-app' (from updater-script)
+    rm -f /system/app/CalendarProvider.apk
+    rm -f /system/app/GoogleBackupTransport.apk
+    rm -f /system/app/GoogleFeedback.apk
+    rm -f /system/app/GoogleLoginService.apk
+    rm -f /system/app/GooglePartnerSetup.apk
+    rm -f /system/app/GoogleServicesFramework.apk
+    rm -f /system/app/OneTimeInitializer.apk
+    rm -f /system/app/Phonesky.apk
+    rm -f /system/app/PrebuiltGmsCore.apk
+    rm -f /system/app/SetupWizard.apk
+    rm -f /system/app/talkback.apk
+    rm -f /system/app/Velvet.apk
+    rm -f /system/app/Wallet.apk
 ;;
 esac

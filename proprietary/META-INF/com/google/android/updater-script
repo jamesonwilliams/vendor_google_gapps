@@ -1,4 +1,4 @@
-# AOSPA GApps Installation Script - Updated: 2013-11-13
+# AOSPA GApps Installation Script - Updated: 2013-11-19
 
 ui_print(" ");
 ui_print("#############################################");
@@ -9,7 +9,7 @@ ui_print("# |_| /_/ \_\  \___|/_/ \_\| .__/| .__//__/ #");
 ui_print("#                          |_|   |_|        #");
 ui_print("#############################################");
 ui_print(" ");
-ui_print("Paranoid Android GApps Full 4.4 - 20131114");
+ui_print("Paranoid Android GApps Full 4.4 - 20131119");
 ui_print(" ");
 sleep(3);
 ui_print("Mounting system...");
@@ -18,67 +18,68 @@ ui_print(" ");
 
 # Checking to make certain user has a 4.4.x ROM Installed - If not, we abort
 ifelse(
-	is_substring("4.4", file_getprop("/system/build.prop","ro.build.version.release")),
-	(
-		ui_print("Android 4.4 ROM detected");
-		ui_print(" ");
-	),
-	(
-		ui_print("**** Incompatible Android ROM detected ****");
-		ui_print(" ");
-		ui_print("This GApps package is for Android 4.4.x ONLY");
-		ui_print(" ");
-		ui_print("******** GApps Installation failed *******");
-		ui_print(" ");
-		ui_print("Unmounting system...");
-		run_program("/sbin/busybox", "umount", "/system");
-		ui_print(" ");
-		sleep(7);
-		abort("Aborting...");
-	)
+    is_substring("4.4", file_getprop("/system/build.prop","ro.build.version.release")),
+    (
+        ui_print("Android 4.4 ROM detected");
+        ui_print(" ");
+    ),
+    (
+        ui_print("**** Incompatible Android ROM detected ****");
+        ui_print(" ");
+        ui_print("This GApps package is for Android 4.4.x ONLY");
+        ui_print(" ");
+        ui_print("******** GApps Installation failed *******");
+        ui_print(" ");
+        ui_print("Unmounting system...");
+        run_program("/sbin/busybox", "umount", "/system");
+        ui_print(" ");
+        sleep(7);
+        abort("Aborting...");
+    )
 );
 
 show_progress(0.8,25);
 
 # Removing pieces that may be left over from other GApps or ROM's
 delete(
-	"/system/app/BrowserProviderProxy.apk",
-	"/system/app/Calendar.apk",
-	"/system/app/Gmail.apk",
-	"/system/app/GmsCore.apk",
-	"/system/app/GoogleCalendar.apk",
-	"/system/app/GoogleCalendarSyncAdapter.apk",
-	"/system/app/GoogleHangouts.apk",
-	"/system/app/GoogleKeep.apk",
-	"/system/app/GoogleOneTimeInitializer.apk",
-	"/system/app/GooglePlus.apk",
-	"/system/app/PartnerBookmarksProvider.apk",
-	"/system/app/QuickSearchBox.apk",
-	"/system/app/Talk.apk",
-	"/system/app/Vending.apk",
-	"/system/app/Youtube.apk",
-	"/system/priv-app/Calendar.apk",
-	"/system/priv-app/GmsCore.apk",
-	"/system/priv-app/GoogleNow.apk",
-	"/system/priv-app/QuickSearchBox.apk",
-	"/system/priv-app/Vending.apk"
+    "/system/app/BrowserProviderProxy.apk",
+    "/system/app/Calendar.apk",
+    "/system/app/Gmail.apk",
+    "/system/app/GmsCore.apk",
+    "/system/app/GoogleCalendar.apk",
+    "/system/app/GoogleCalendarSyncAdapter.apk",
+    "/system/app/GoogleCloudPrint.apk",
+    "/system/app/GoogleHangouts.apk",
+    "/system/app/GoogleKeep.apk",
+    "/system/app/GoogleOneTimeInitializer.apk",
+    "/system/app/GooglePlus.apk",
+    "/system/app/PartnerBookmarksProvider.apk",
+    "/system/app/QuickSearchBox.apk",
+    "/system/app/Talk.apk",
+    "/system/app/Vending.apk",
+    "/system/app/Youtube.apk",
+    "/system/priv-app/Calendar.apk",
+    "/system/priv-app/GmsCore.apk",
+    "/system/priv-app/GoogleNow.apk",
+    "/system/priv-app/QuickSearchBox.apk",
+    "/system/priv-app/Vending.apk"
 );
 
 # Remove apps from 'app' that need to be installed in 'priv-app'
 delete(
-	"/system/app/CalendarProvider.apk",
-	"/system/app/GoogleBackupTransport.apk",
-	"/system/app/GoogleFeedback.apk",
-	"/system/app/GoogleLoginService.apk",
-	"/system/app/GooglePartnerSetup.apk",
-	"/system/app/GoogleServicesFramework.apk",
-	"/system/app/OneTimeInitializer.apk",
-	"/system/app/Phonesky.apk",
-	"/system/app/PrebuiltGmsCore.apk",
-	"/system/app/SetupWizard.apk",
-	"/system/app/talkback.apk",
-	"/system/app/Velvet.apk",
-	"/system/app/Wallet.apk"
+    "/system/app/CalendarProvider.apk",
+    "/system/app/GoogleBackupTransport.apk",
+    "/system/app/GoogleFeedback.apk",
+    "/system/app/GoogleLoginService.apk",
+    "/system/app/GooglePartnerSetup.apk",
+    "/system/app/GoogleServicesFramework.apk",
+    "/system/app/OneTimeInitializer.apk",
+    "/system/app/Phonesky.apk",
+    "/system/app/PrebuiltGmsCore.apk",
+    "/system/app/SetupWizard.apk",
+    "/system/app/talkback.apk",
+    "/system/app/Velvet.apk",
+    "/system/app/Wallet.apk"
 );
 
 # Removing lib that is no longer included with Google+ (check to make certain it doesn't show up in another app)
@@ -86,9 +87,6 @@ delete("/system/lib/libstlport_shared.so");
 
 # Removing the stock AOSP launcher for the new GoogleHome version with more features
 delete("/system/priv-app/Launcher2.apk","/system/priv-app/Launcher3.apk","/system/app/Launcher2.apk","/system/app/Launcher3.apk");
-
-# Removing AOSP Gallery because we now add GoogleGallery
-delete("/system/app/Gallery2.apk","/system/app/Gallery.apk");
 
 # Removing AOSP Keyboard and library (& old libs) (since we're adding Google Keyboard)
 delete("/system/app/LatinIME.apk","/system/lib/libjni_latinime.so","/system/lib/libjni_latinimegoogle.so","/system/lib/libjni_unbundled_latinimegoogle.so");

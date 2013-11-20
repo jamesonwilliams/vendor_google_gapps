@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
     CalendarProvider \
 	Chrome \
     ChromeBookmarksSyncAdapter \
+    CloudPrint2.apk \
     ConfigUpdater \
     Drive \
     GalleryGoogle \

@@ -35,7 +35,25 @@ if (grep -qi "hammerhead" /proc/cpuinfo ); then
   echo "Installing Nexus 5 Photosphere Camera"
   rm -f /system/app/Camera2.apk
   rm -f /system/priv-app/Camera2.apk
-  cp -a /tmp/camera/hammerhead/* /system/
+  rm -f /system/app/Gallery.apk
+  rm -f /system/priv-app/Gallery.apk
+  rm -f /system/app/Gallery2.apk
+  rm -f /system/priv-app/Gallery2.apk
+  cp -a /tmp/photosphere/common/* /system/
+  cp -a /tmp/photosphere/hammerhead/* /system/
+  chmod 755 /system/addon.d/74-googlecamera.sh
+fi
+
+if (grep -qi "deb" /proc/cpuinfo )||(grep -qi "flo" /proc/cpuinfo ); then
+  echo "Installing Nexus 7 Photosphere Camera"
+  rm -f /system/app/Camera2.apk
+  rm -f /system/priv-app/Camera2.apk
+  rm -f /system/app/Gallery.apk
+  rm -f /system/priv-app/Gallery.apk
+  rm -f /system/app/Gallery2.apk
+  rm -f /system/priv-app/Gallery2.apk
+  cp -a /tmp/photosphere/common/* /system/
+  cp -a /tmp/photosphere/razor/* /system/
   chmod 755 /system/addon.d/74-googlecamera.sh
 fi
 
@@ -43,6 +61,26 @@ if (grep -qi "mako" /proc/cpuinfo ); then
   echo "Installing Nexus 4 Photosphere Camera"
   rm -f /system/app/Camera2.apk
   rm -f /system/priv-app/Camera2.apk
-  cp -a /tmp/camera/hammerhead/* /system/
+  rm -f /system/app/Gallery.apk
+  rm -f /system/priv-app/Gallery.apk
+  rm -f /system/app/Gallery2.apk
+  rm -f /system/priv-app/Gallery2.apk
+  cp -a /tmp/photosphere/common/* /system/
+  cp -a /tmp/photosphere/mako/* /system/
   chmod 755 /system/addon.d/74-googlecamera.sh
 fi
+
+if (grep -qi "manta" /proc/cpuinfo ); then
+  echo "Installing Nexus 10 Photosphere Camera"
+  rm -f /system/app/Camera2.apk
+  rm -f /system/priv-app/Camera2.apk
+  rm -f /system/app/Gallery.apk
+  rm -f /system/priv-app/Gallery.apk
+  rm -f /system/app/Gallery2.apk
+  rm -f /system/priv-app/Gallery2.apk
+  cp -a /tmp/photosphere/common/* /system/
+  cp -a /tmp/photosphere/manta/* /system/
+  chmod 755 /system/addon.d/74-googlecamera.sh
+fi
+
+rm -rf /tmp/photosphere
